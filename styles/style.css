@@ -1,0 +1,54 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Cinzel", serif;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #e5e5e5;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #14213d;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+h1 {
+  margin: 0;
+  padding: 5px 0;
+  color: #fca311;
+  text-shadow: 3px 3px 1px #000000;
+  font-size: 40px;
+  text-align: left;
+}
+img {
+  display: inline flow-root;
+  margin: 0;
+  max-width: 5%;
+}
+button {
+  background-color: #fca311;
+  color: #14213d;
+  border: none;
+  padding: 5px 10px;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
