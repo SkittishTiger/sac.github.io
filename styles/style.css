@@ -12,18 +12,19 @@ li {
   letter-spacing: 1px;
 }
 html {
-  background-color: #e5e5e5;
+  background-color: #000000;
 }
 body {
   margin: 0;
   padding: 0;
 }
 header {
-  background-color: #14213d;
+  background-color: #000000;
   text-align: left;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  outline: 1px solid #fca311;
 }
 .header-left {
   display: flex;
@@ -39,7 +40,7 @@ h1 {
   margin: 0;
   padding: 5px 0;
   color: #fca311;
-  text-shadow: 3px 3px 1px #000000;
+  text-shadow: 3px 3px 1px #6d6d6d;
   font-size: 40px;
   text-align: left;
 }
@@ -47,6 +48,7 @@ h2 {
   margin: -15px 0 0 0;
   padding: 0 0 0 0;
   color: #fca311;
+  text-shadow: #6d6d6d 3px 3px 1px;
   font-size: 15px;
   text-align: center;
   font-weight: normal;
@@ -58,19 +60,21 @@ img {
   max-width: 5%;
 }
 button {
-  background-color: #fca311;
-  color: #14213d;
+  background-color: #000000;
+  color: #fca311;
   border: none;
   padding: 5px 10px;
   font-family: inherit;
   font-size: 16px;
   cursor: pointer;
+  margin-left: 20px;
 }
 .profile-pic {
-  float: right;
-  width: 500px;
+  width: 100%;
   max-width: none;
   height: auto;
-  margin-left: 20px;
+  margin-left: 0;
   margin-bottom: 20px;
+  display: block;
+  filter: brightness(0.1);
 }
